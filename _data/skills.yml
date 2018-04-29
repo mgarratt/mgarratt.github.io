@@ -1,0 +1,36 @@
+- skill:
+  name: Java8
+  level: 90%
+- skill:
+  name: PHP
+  level: 85%
+- skill:
+  name: React
+  level: 75%
+- skill:
+  name: HTML5 & CSS
+  level: 95%
+- skill:
+  name: SASS
+  level: 80%
+- skill:
+  name: PostgreSQL
+  level: 70%
+- skill:
+  name: MySQL
+  level: 70%
+- skill:
+  name: MongoDB
+  level: 50%
+- skill:
+  name: Linux
+  level: 90%
+- skill:
+  name: Docker
+  level: 90%
+- skill:
+  name: Kubernetes
+  level: 60%
+- skill:
+  name: Ansible
+  level: 70%

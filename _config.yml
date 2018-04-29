@@ -1,0 +1,47 @@
+# Site Settings
+title: Mark Garratt
+url: 'http://mgarratt.uk'
+baseurl: '' #change it according to your repository name
+about: False # set to False or comment line if you want to remove the "How to use?" in the sidebar
+
+
+# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
+#style: styles-2
+#style: styles-3
+#style: styles-4
+#style: styles-5
+#style: styles-6
+style: styles-mgarratt
+
+
+#Profile information
+name: Mark Garratt
+tagline: Software Engineer
+pic: http://www.gravatar.com/avatar/eaf07a60ea5250ca53693f2fa1894425.jpg?s=100  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+summary: 'A Software Engineer with over 10 years experience developing web
+based applications and e-commerce websites. Currently working in Java 8 with
+PostgreSQL as a data store, but also having extensive experience with PHP and
+MySQL. Capable of working full-stack from frontend Single Page Applications to
+server orchastration with software such as Ansible.'
+
+#sidebar links
+email: mgarratt@gmail.com
+#phone: 012 345 6789
+website: mgarratt.uk #do not add http://
+linkedin: mgarratt
+github: mgarratt
+twitter: '@mgarratt88'
+#Update all the sections by editing the files inside _data folder.
+
+# uncomment the next line, if you want the education section displayed in main instead of the sidebar
+education_in_main: True
+
+# Tracker
+analytics: UA-45257143-1
+
+# Build settings
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development

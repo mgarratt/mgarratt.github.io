@@ -1,0 +1,37 @@
+- experience:
+  role: Senior Software Engineer
+  time: July 2017 - Present
+  company: MOO Print Ltd, London
+  details: "Continuing work on the MOO Business Services crew, taking on the
+  role of Tech Lead. Responsibilities include architecting th emove away from
+  a monolith to microservices, working closely with the the rest of the business
+  to delivery new features and guiding / mentoring the team in their day to day
+  tasks"
+- experience:
+  role: Software Engineer II
+  time: February 2016 - July 2017
+  company: MOO Print Ltd, London
+  details: "Member of the MOO Business Services crew, developing MOO's business
+  to business platform. Initially working with PHP / Symfony 2, then progressing
+  to writing the next generation of MOO's services using Java / Spring / Spark."
+- experience:
+  role: R&D Manager
+  time: February 2015 - Febryary 2016
+  company: Cyber-Duck Ltd, London
+  details: "Developed internal tools, potential products and investigated new
+  technologies and methodologies. When necessary undertook client projects
+  delivering websites, e-commerce and bespoke applications to production."
+- experience:
+  role: Web Developer
+  time: September 2012 - February 2015
+  company: Cyber-Duck Ltd, Hertfordshire
+  details: "Working full stack using PHP and NodeJS for the backend and jQuery +
+  SASS for the frontend. Went through a large project to migrate all of the
+  existing snowflake servers over to being managed by Puppet."
+- experience:
+  role: Web Developer
+  time: 2008 - September 2012
+  company: Freelance
+  details: 'Taking on projects for friends, family and local businesses to gain
+  experience whilst studying. Also undertook some networking and IT support
+  tasks.'
