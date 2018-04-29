@@ -25,3 +25,12 @@ less:
 
 serve:
 	bundle exec jekyll serve
+
+publish:
+	git stash
+	git rm -rf --ignore-unmatch assets/css assets/js/min
+	$(MAKE) clean build
+	git add -f assets/css assets/js/min
+	git commit -m "Publishing css / js"
+	git push
+	git stash pop
