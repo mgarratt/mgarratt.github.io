@@ -18,11 +18,19 @@ style: styles-mgarratt
 name: Mark Garratt
 tagline: Software Engineer
 pic: http://www.gravatar.com/avatar/eaf07a60ea5250ca53693f2fa1894425.jpg?s=100  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'A Software Engineer with over 10 years experience developing web
-based applications and e-commerce websites. Currently working in Java 8 with
-PostgreSQL as a data store, but also having extensive experience with PHP and
-MySQL. Capable of working full-stack from frontend Single Page Applications to
-server orchastration with software such as Ansible.'
+summary: 'A Senior Software Engineer with over 10 years experience developing
+web based applications and e-commerce websites. Has strong interpersonal
+skills and is highly capable of explaining complex technical concerns to
+non-technical coworkers.</p>
+
+<p>Able to lead a team through the design, architecture and build of complex
+projects and deliver under tight deadlines. Takes a pragmatic approach to
+achieve a balance between business needs and software quality.</p>
+
+<p>Capable of working full-stack, mainly focusing on backend APIs, but equally
+able to configure servers or work on a frontend SPA. Currently working in Java
+8 with PostgreSQL as a data store, but also having extensive experience with PHP
+and MySQL.'
 
 #sidebar links
 email: mgarratt@gmail.com

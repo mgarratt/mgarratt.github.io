@@ -2,8 +2,11 @@
   item: Domain Driven Design
   link:
 - interest:
-  item: Functional Programming
+  item: Software Architecture
   link:
 - interest:
-  item: Software Architecture
+  item: Web Application Security
+  link:
+- interest:
+  item: Clean Code
   link:

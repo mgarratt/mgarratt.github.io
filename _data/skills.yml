@@ -1,36 +1,42 @@
 - skill:
-  name: Java8
-  level: 90%
+  name: Languages
+  items:
+    - PHP
+    - Java
+    - Python
+    - Node.js/JavaScript
+    - HTML/CSS
+    - Less/Sass
 - skill:
-  name: PHP
-  level: 85%
+  name: Databases
+  items:
+    - MySQL
+    - PostgreSQL
+    - MongoDB
+    - CouchDB
 - skill:
-  name: React
-  level: 75%
+  name: Ops
+  items:
+    - Linux (Debina/Ubuntu, RHEL/CentOS)
+    - Ansible
+    - Terraform
+    - Puppet
+    - Apache
+    - Nginx
 - skill:
-  name: HTML5 & CSS
-  level: 95%
+  name: Tools
+  items:
+    - Gradle
+    - Maven
+    - Composer
+    - GitLab CI
 - skill:
-  name: SASS
-  level: 80%
-- skill:
-  name: PostgreSQL
-  level: 70%
-- skill:
-  name: MySQL
-  level: 70%
-- skill:
-  name: MongoDB
-  level: 50%
-- skill:
-  name: Linux
-  level: 90%
-- skill:
-  name: Docker
-  level: 90%
-- skill:
-  name: Kubernetes
-  level: 60%
-- skill:
-  name: Ansible
-  level: 70%
+  name: Soft Skills
+  items:
+    - Communication
+    - Teamwork
+    - Leadership
+    - Pragmatism
+    - Self-motivation
+    - Time managament
+    - Performs under pressure
