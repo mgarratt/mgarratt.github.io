@@ -16,3 +16,10 @@ encoding: "utf-8"
 
 sass:
   style: expanded
+
+assets:
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "> 1%"
+      - "IE > 6"
