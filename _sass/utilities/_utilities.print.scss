@@ -1,0 +1,28 @@
+@media print {
+  .u-padding {
+    padding: 0 !important;
+  }
+
+  .o-wrapper {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .o-box {
+    padding: 10px !important;
+  }
+
+  .c-header.u-padding-vertical-large {
+    padding: 0 !important;
+  }
+
+  .c-interests {
+    min-width: 250px !important;
+  }
+
+  h3,
+  aside {
+    margin-bottom: 10px !important;
+  }
+}
