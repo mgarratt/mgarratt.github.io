@@ -4,7 +4,7 @@ subtitle: Software Engineer
 picture: http://www.gravatar.com/avatar/eaf07a60ea5250ca53693f2fa1894425.jpg?s=100
 layout: default
 ---
-# <span class="fas fa-user"></span> Profile
+## <span class="fas fa-user"></span> Profile
 A Senior Software Engineer with over 10 years experience developing web based
 applications and e-commerce websites. Has strong interpersonal skills and is
 highly capable of explaining complex technical concerns to non-technical
