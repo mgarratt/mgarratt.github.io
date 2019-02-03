@@ -1,0 +1,17 @@
+{
+  "name": "mgarratt.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgarratt/mgarratt.github.io.git"
+  },
+  "author": "Mark Garratt <mgarratt@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://mgarratt.uk/",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.1",
+    "inuitcss": "^6.0.0",
+    "sass-mq": "^5.0.0"
+  }
+}

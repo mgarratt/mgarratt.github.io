@@ -1,36 +1,19 @@
 export PATH := node_modules/.bin/:$(PATH)
-TARGETS := $()
+export JEKYLL_ENV := development
 
-.PHONY: init clean build js less serve
+.PHONY: init clean build serve
 
 init:
+	rm -rf node_modules
 	npm install
 	bundle install
+	$(MAKE) clean build
 
 clean:
-	rm -rf assets/js/min assets/css
+	bundle exec jekyll clean
 
-build: js less
-
-js:
-	mkdir assets/js/min
-	uglifyjs --output assets/js/min/main-min.js assets/js/*.js
-
-less:
-	echo $(wildcard assets/less/*.less)
-	@- $(foreach TARGET,$(wildcard assets/less/*.less), \
-		$(eval OUTPUT = $(subst less,css,$(TARGET))) \
-		./node_modules/.bin/lessc $(TARGET) $(OUTPUT); \
-	)
+build:
+	bundle exec jekyll build
 
 serve:
 	bundle exec jekyll serve
-
-publish:
-	git stash
-	git rm -rf --ignore-unmatch assets/css assets/js/min
-	$(MAKE) clean build
-	git add -f assets/css assets/js/min
-	git commit -m "Publishing css / js"
-	git push
-	git stash pop

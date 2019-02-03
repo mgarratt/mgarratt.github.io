@@ -1,0 +1,29 @@
+$inuit-widths-breakpoint-separator: \@ !default;
+
+$flex-directions: (
+        "row": "row",
+        "row-reverse": "row-reverse",
+        "column": "column",
+        "column-reverse": "column-reverse",
+);
+
+@each $flex-direction, $direction in $flex-directions {
+  .u-flex-direction--#{$flex-direction} {
+    display: flex;
+    flex-direction: #{$flex-direction};
+  }
+}
+
+
+@if (variable-exists(mq-breakpoints)) {
+  @each $inuit-bp-name, $inuit-bp-value in $mq-breakpoints {
+    @include mq($from: $inuit-bp-name) {
+      @each $flex-direction, $direction in $flex-directions {
+        .u-flex-direction--#{$flex-direction}#{$inuit-widths-breakpoint-separator}#{$inuit-bp-name} {
+          display: flex;
+          flex-direction: #{$flex-direction};
+        }
+      }
+    }
+  }
+}

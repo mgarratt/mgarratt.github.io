@@ -1,0 +1,14 @@
+<section class="c-skills o-box">
+    <h2>
+        <span class="fas fa-pencil-ruler"></span>
+        Skills
+    </h2>
+{% for skill in site.data.skills %}
+    <h3>{{ skill.category }}</h3>
+    <ul>
+        {% for skil in skill.skills %}
+        <li>{{ skil }}</li>
+        {% endfor %}
+    </ul>
+{% endfor %}
+</section>

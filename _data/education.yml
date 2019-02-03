@@ -1,0 +1,26 @@
+---
+- qualification: MEng in Computer Science
+  establishment: University of Hertfordshire
+  from: 2009
+  to: 2012
+  description: >-
+    Completed an accelerated MEng in Computer Science, focusing on Object
+    Orientation and software design. A year in industry was spent working for a
+    small digital agency on Magento e-commerce websites. Final year project was
+    a web app for locating band members written using Zend Framework.
+
+- qualification: BSc in Computer Science (partial)
+  establishment: Oxford Brookes University
+  from: 2006
+  to: 2008
+  description: >-
+    First two years of a BSc in Computer Science taking modules in Mathematics,
+    AI, Functional Programming and general computing.
+
+- qualification: A-Levels / GCSEs
+  establishment: Priory School, Hitchin
+  from: 1999
+  to: 2006
+  description: >-
+    Secondary school education achieving 12 A* - C grade GCSEs and AS / A2
+    Levels in Computing, Design & Technology, Maths and Chemistry.

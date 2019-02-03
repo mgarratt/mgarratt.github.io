@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ site.description }}">
+    <title>{{ page.title }} - {{ page.subtitle }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+<div class="c-page o-wrapper u-padding-none u-margin-vertical@desktop">
+    <div class="o-layout o-layout--stretch o-layout--flush">
+        <div class="c-sidebar o-layout__item u-flex-direction--column u-1/1 u-1/4@tablet u-push-3/4@tablet">
+            <header class="c-header o-box u-padding-vertical-large">
+                <img src="{{ page.picture }}" alt="{{ page.title }}" width="100" height="100" />
+                <h1>
+                    {{ page.title }} <span class="u-hidden-visually">-</span>
+                    <span>{{ page.subtitle }}</span>
+                </h1>
+            </header>
+            <aside class="u-flex-direction--column u-flex-direction--row@mobileLandscape u-flex-direction--column@tablet">
+                {% include social.html %}
+                {% include interests.html %}
+            </aside>
+        </div>
+        <main class="o-layout__item u-flex-direction--column u-padding u-1/1 u-3/4@tablet u-pull-1/4@tablet">
+            <section class="o-box">
+                {{ content }}
+            </section>
+            {% include experience.html %}
+            {% include education.html %}
+            {% include skills.html %}
+        </main>
+    </div>
+</div>
+{% include footer.html %}
+</body>
+
+</html>
+

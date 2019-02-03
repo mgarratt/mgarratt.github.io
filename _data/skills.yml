@@ -1,0 +1,44 @@
+---
+- category: Languages
+  skills:
+    - PHP
+    - Java
+    - Python
+    - Node.js/JavaScript
+    - HTML/CSS
+    - Sass
+    - Less
+
+- category: Databases
+  skills:
+    - MySQL
+    - PostgreSQL
+    - MongoDB
+    - CouchDB
+
+- category: Ops
+  skills:
+    - Linux (Debina/Ubuntu
+    - RHEL/CentOS)
+    - Ansible
+    - Terraform
+    - Puppet
+    - Apache
+    - Nginx
+
+- category: Tools
+  skills:
+    - Gradle
+    - Maven
+    - Composer
+    - GitLab CI
+
+- category: Soft Skills
+  skills:
+    - Communication
+    - Teamwork
+    - Leadership
+    - Pragmatism
+    - Self-motivation
+    - Time managament
+    - Performs under pressure

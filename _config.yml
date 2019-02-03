@@ -1,0 +1,18 @@
+---
+# Jekyll Settings
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENCE.md
+  - Makefile
+  - package.json
+  - package-lock.json
+  - README.md
+  - node_modules/inuitcss
+  - node_modules/sass-mq
+  - node_modules/@fortawesome/fontawesome-free/[!w]*
+encoding: "utf-8"
+
+sass:
+  style: expanded

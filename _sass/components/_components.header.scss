@@ -1,0 +1,22 @@
+.c-header {
+  text-align: center;
+  background: $main-color;
+
+  > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  > h1 {
+    font-weight: 900;
+
+    > span {
+      display: block;
+      @include inuit-font-size(16px);
+      font-weight: 400;
+      font-variant: normal;
+      color: mix($font-color-white, $main-color, 70%);
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<section class="c-education o-box">
+    <h2>
+        <span class="fas fa-university"></span>
+        Education
+    </h2>
+{% for education in site.data.education %}
+    <h3 class="u-float-left@mobileLandscape">
+        {{ education.qualification }} <span class="u-hidden-visually">-</span>
+        <span>{{ education.establishment }}</span>
+    </h3>
+    <aside class="u-float-right@mobileLandscape">{{ education.from }} - {{ education.to }}</aside>
+    <p class="u-float-clear">{{ education.description }}</p>
+{% endfor %}
+</section>

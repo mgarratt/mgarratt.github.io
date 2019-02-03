@@ -1,0 +1,53 @@
+---
+- title: Senior Software Engineer
+  company: MOO Print Ltd, London
+  from: July 2017
+  to: Present
+  description: >-
+    Took on the role of Tech Lead with responsibilities include leading the team
+    through multiple high-profile projects, mentoring junior developers and
+    guiding the technical approach across MOO. Worked closely with the Senior
+    Architect to design the future vision for technology at MOO and begin to
+    enact this vision through communication with other Tech Leads and the tech
+    team as a whole.
+
+- title: Software Engineer II
+  company: MOO Print Ltd, London
+  from: February 2016
+  to: July 2017
+  description: >-
+    Working in an Agile environment to develop MOO's business to business
+    platform. Initially working with PHP / Symfony 2, then progressing to
+    writing the next generation of MOO's services using Java / Spring /
+    Spark. Where necessary took on additional responsibilities in Product
+    Ownership and Agile Delivery, which included stakeholder management and team
+    ways of working.
+
+- title: R&D Manager
+  company: Cyber-Duck Ltd, London
+  from: February 2015
+  to: February 2016
+  description: >-
+    Investigated new technologies and methodologies which were used to develop
+    internal tools and potential new products. Fed discovery back to the
+    development team as well as the business to improve existing processes.
+    Undertook some client work including project management, software design and
+    development.
+
+- title: Web Developer
+  company: Cyber-Duck Ltd, Hertfordshire
+  from: September 2012
+  to: February 2015
+  description: >-
+    Working full stack using PHP and NodeJS for the backend and jQuery + SASS
+    for the frontend. Went through a large project to migrate all of the
+    existing snowflake servers over to being managed by Puppet.
+
+- title: Web Developer
+  company: Freelance
+  from: June 2008
+  to: September 2012
+  description: >-
+    Taking on projects for friends, family and local businesses to gain
+    experience whilst studying. Also undertook some networking and IT support
+    tasks.

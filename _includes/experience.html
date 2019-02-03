@@ -1,0 +1,14 @@
+<section class="c-experience o-box">
+    <h2>
+        <span class="fas fa-briefcase"></span>
+        Experience
+    </h2>
+{% for experience in site.data.experience %}
+    <h3 class="u-float-left@mobileLandscape">
+        {{ experience.title }} <span class="u-hidden-visually">-</span>
+        <span>{{ experience.company }}</span>
+    </h3>
+    <aside class="u-float-right@mobileLandscape">{{ experience.from }} - {{ experience.to }}</aside>
+    <p class="u-float-clear">{{ experience.description }}</p>
+{% endfor %}
+</section>

@@ -1,0 +1,27 @@
+.c-social {
+  a {
+    color: $font-color-white;
+    text-decoration: none;
+
+    &:hover {
+      color: mix($font-color-white, $main-color, 70%);
+      text-decoration: underline;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+
+    li {
+      white-space: nowrap;
+    }
+  }
+
+  span.fa,
+  span.fas,
+  span.fab,
+  span.far {
+    width: 20px;
+  }
+}
