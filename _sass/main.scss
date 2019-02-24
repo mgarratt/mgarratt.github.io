@@ -173,10 +173,12 @@ $inuit-responsive-spacing-directions: (
 
 $inuit-responsive-spacing-properties: (
         "margin": "margin",
+        "padding": "padding",
 );
 
 $inuit-responsive-spacing-sizes: (
         null: $inuit-global-spacing-unit,
+        "-none": 0,
 );
 @import "../node_modules/inuitcss/utilities/utilities.responsive-spacings";
 @import "../node_modules/inuitcss/utilities/utilities.print";
