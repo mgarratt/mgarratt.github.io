@@ -1,4 +1,48 @@
 @media print {
+  * {
+    float: none !important;
+  }
+
+  html {
+    font-size: 12px;
+
+    & body {
+      display: block;
+      height: 100% !important;
+    }
+  }
+
+  a[href]:after {
+    content: "\A(" attr(href) ")";
+    white-space: pre-line;
+  }
+
+  .c-content {
+    position: relative !important;
+    width: 75% !important;
+    right: 25% !important;
+    left: auto !important;
+  }
+
+  .c-sidebar {
+    position: relative !important;
+    width: 25% !important;
+    left: 75% !important;
+    right: auto !important;
+
+    > aside {
+      flex-direction: column !important;
+    }
+  }
+
+  .c-experience {
+    page-break-after: always !important;
+  }
+
+  .c-education {
+    page-break-before: always !important;
+  }
+
   .u-padding {
     padding: 0 !important;
   }
