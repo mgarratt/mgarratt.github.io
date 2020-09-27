@@ -1,8 +1,18 @@
 ---
 - title: Senior Software Engineer
+  company: Funding Circle, London
+  from: July 2019
+  to: Present
+  description: >-
+    This role is a new technical and architectural challenge, needing to learn
+    Clojure, Ruby and Kafka quickly. The work involves working on the back-end
+    systems dealing with loan servicing across 3 different geographies and
+    requires understanding complex business and regulatory requirements.
+
+- title: Senior Software Engineer
   company: MOO Print Ltd, London
   from: July 2017
-  to: Present
+  to: July 2019
   description: >-
     Took on the role of Tech Lead with responsibilities include leading the team
     through multiple high-profile projects, mentoring junior developers and
