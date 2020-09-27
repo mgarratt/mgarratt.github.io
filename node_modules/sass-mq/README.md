@@ -1,8 +1,8 @@
+<div align="center">
+	<img width="500" height="500" src="https://avatars3.githubusercontent.com/u/9341289?v=3&s=500" alt="Awesome">
+</div>
+
 # Media Queries with superpowers [![Build Status](https://api.travis-ci.org/sass-mq/sass-mq.svg?branch=master)](https://travis-ci.org/sass-mq/sass-mq)
-
-![ ](https://avatars3.githubusercontent.com/u/9341289?v=3&s=300)
-
-----
 
 `mq()` is a [Sass](http://sass-lang.com/ "Sass - Syntactically Awesome
 Stylesheets") mixin that helps you compose media queries in an elegant
@@ -50,20 +50,18 @@ Compiles to:
 
 _Sass MQ was crafted in-house at the Guardian. Today, many more companies and developers are using it in their projects: [see who uses Sass MQ](#who-uses-sass-mq)._
 
-----
-
-
 ## How to use it
 
 Immediately play with it on [SassMeister](http://sassmeister.com/): `@import 'mq';`.
 
 OR:
 
-1. Install with [Bower](http://bower.io/ "Bower: A package manager for the web"): `bower install sass-mq --save`
+1. Install:
+    - with [Bower](http://bower.io/ "Bower: A package manager for the web"): `bower install sass-mq --save`
+    - with [npm](https://www.npmjs.com/): `npm install sass-mq --save` _supports [eyeglass](https://github.com/sass-eyeglass/eyeglass)_
+    - with [yarn](https://www.yarnpkg.com/): `yarn add sass-mq` _supports [eyeglass](https://github.com/sass-eyeglass/eyeglass)_
 
-    OR Install with [npm](https://www.npmjs.com/): `npm install sass-mq --save` _it supports [eyeglass](https://github.com/sass-eyeglass/eyeglass)_
-
-    OR [Download _mq.scss](https://raw.github.com/sass-mq/sass-mq/master/_mq.scss) to your Sass project.
+    OR [Download _mq.scss](https://raw.github.com/sass-mq/sass-mq/master/_mq.scss) into your Sass project.
 
 2. Import the partial in your Sass files and override default settings
    with your own preferences before the file is imported:
@@ -90,17 +88,20 @@ OR:
 
     // Define the breakpoint from the $mq-breakpoints list that should
     // be used as the target width when outputting a static stylesheet
-    // (i.e. when $mq-responsive is set to 'false').
+    // (when $mq-responsive is set to 'false').
     $mq-static-breakpoint: desktop;
 
     // If you want to display the currently active breakpoint in the top
     // right corner of your site during development, add the breakpoints
-    // to this list, ordered by width, e.g. (mobile, tablet, desktop).
+    // to this list, ordered by width. For example: (mobile, tablet, desktop).
     $mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, wide);
 
+    // If _mq.scss is in your project:
     @import 'path/to/mq';
     // With eyeglass:
-    // @import 'sass-mq';
+    @import 'sass-mq';
+    // With webpack (and boilerplates such as create-react-app)
+    @import '~sass-mq';
     ```
 3. Play around with `mq()` (see below)
 
@@ -185,7 +186,7 @@ $mq-static-breakpoint: desktop;
 
 ### Verbose and shortand notations
 
-Sometimes you’ll want to be extra verbose (e.g. if you’re developing a
+Sometimes you’ll want to be extra verbose (for example, if you’re developing a
 library based on top of sass-mq), however for readability in a codebase,
 the shorthand notation is recommended.
 
@@ -245,6 +246,11 @@ active. To achieve this, set the `$mq-show-breakpoints` variable to
 be a list of the breakpoints you want to debug, ordered by width.
 The name of the active breakpoint and its pixel and em values will
 then be shown in the top right corner of the viewport.
+
+```scss
+// Adapt the list to include breakpoint names from your project
+$mq-show-breakpoints: (phone, phablet, tablet);
+```
 
 ![$mq-show-breakpoints](https://raw.githubusercontent.com/sass-mq/sass-mq/master/show-breakpoints.gif)
 
@@ -333,6 +339,7 @@ These companies and projects use Sass MQ:
 - [Beneš & Michl](http://www.benes-michl.cz)
 - [Manchester International Festival](http://mif.co.uk/)
 - [Shopify Polaris](https://polaris.shopify.com)
+- [Taylor / Thomas](https://www.taylorthomas.co.uk/)
 - You? [Open an issue](https://github.com/sass-mq/sass-mq/issues/new?title=My%20company%20uses%20Sass%20MQ&body=Hi,%20we%27re%20using%20Sass%20MQ%20at%20[name%20of%20your%20company]%20and%20we%27d%20like%20to%20be%20mentionned%20in%20the%20README%20of%20the%20project.%20Cheers!)
 
 ----

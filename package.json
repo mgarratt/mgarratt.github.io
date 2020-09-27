@@ -10,8 +10,8 @@
   "license": "MIT",
   "homepage": "https://mgarratt.uk/",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.7.1",
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "inuitcss": "^6.0.0",
-    "sass-mq": "^5.0.0"
+    "sass-mq": "^5.0.1"
   }
 }
