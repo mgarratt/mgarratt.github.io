@@ -1,43 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: " en-US" }}">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ site.description }}">
-    <title>{{ page.title }} - {{ page.subtitle }}</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic" />
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
 </head>
 
-<body>
-<div class="c-page o-wrapper u-padding-none u-margin-vertical@desktop">
-    <div class="o-layout o-layout--stretch o-layout--flush">
-        <div class="c-sidebar o-layout__item u-flex-direction--column u-1/1 u-1/4@tablet u-push-3/4@tablet">
-            <header class="c-header o-box u-padding-vertical-large">
-                <img src="{{ page.picture }}" alt="{{ page.title }}" width="100" height="100" />
-                <h1>
-                    {{ page.title }} <span class="u-hidden-visually">-</span>
-                    <span>{{ page.subtitle }}</span>
-                </h1>
-            </header>
-            <aside class="u-flex-direction--column u-flex-direction--row@mobileLandscape u-flex-direction--column@tablet">
-                {% include social.html %}
-                {% include interests.html %}
-            </aside>
-        </div>
-        <main class="c-content o-layout__item u-flex-direction--column u-padding u-1/1 u-3/4@tablet u-pull-1/4@tablet">
-            <section class="o-box">
-                {{ content }}
-            </section>
-            {% include experience.html %}
-            {% include education.html %}
-            {% include skills.html %}
-        </main>
+<body class="bg-neutral-100">
+  <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse bg-white drop-shadow-md">
+    <div class="bg-fuchsia-900 text-white">
+      <header class="bg-fuchsia-950 p-12">
+        <img src="{{ page.picture }}" alt="{{ page.title }}" class="rounded-full mx-auto w-24 mb-5" />
+        <h1 class="text-white text-center">{{ page.title }}
+          <span class="sr-only">- </span>
+          <span class="br-before text-base font-normal text-fuchsia-100">{{ page.subtitle }}</span>
+        </h1>
+      </header>
+      <aside class="py-8 px-6 text-center sm:text-left sm:columns-2 md:columns-1">
+        {% include social.html %}
+        {% include interests.html %}
+      </aside>
     </div>
-</div>
-{% include footer.html %}
+    <main class="flex-col py-8 px-6">
+      <section id="profile">
+        {{ content }}
+      </section>
+      {% include experience.html %}
+      {% include education.html %}
+      {% include skills.html %}
+    </main>
+  </div>
+  {% include footer.html %}
 </body>
-
 </html>
-

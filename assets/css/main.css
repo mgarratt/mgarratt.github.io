@@ -1,0 +1,46 @@
+---
+---
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .font-small-caps {
+        font-variant: small-caps;
+    }
+
+    .font-variant-none {
+        font-variant: normal;
+    }
+
+    .br-before::before,
+    .br-after::after {
+        content: "\a";
+        white-space: pre;
+    }
+}
+
+@layer base {
+    h1 {
+        @apply font-black font-small-caps text-3xl;
+    }
+
+    h2 {
+        @apply font-bold font-small-caps text-2xl;
+    }
+
+    h3 {
+        @apply font-semibold;
+        @apply font-variant-none;
+    }
+
+    p {
+        @apply my-5;
+    }
+
+    .fas,
+    .fab {
+        @apply pr-2;
+    }
+}

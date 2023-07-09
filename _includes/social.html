@@ -1,27 +1,12 @@
-<section class="c-social o-box">
+<section id="social">
+    <h2 class="py-2 sr-only sm:not-sr-only sm:py-2 md:sr-only">Contact</h2>
     <ul>
-        <li>
-            <a href="mailto:{{ site.data.social.email }}" class="u-padding-vertical-small u-padding-vertical-none@tablet">
-                <span class="fas fa-envelope"></span> {{ site.data.social.email }}
+        {% for social in site.data.social %}
+        <li class="py-2">
+            <a href="{{ social.link }}">
+                <span class="{{ social.icon }}"></span><span class="sr-only">{{ social.name }}:</span> {{ social.text }}
             </a>
         </li>
-        <li>
-            <a href="{{ site.data.social.website.link }}" class="u-padding-vertical-small u-padding-vertical-none@tablet">
-                <span class="fas fa-globe"> </span> {{ site.data.social.website.text }}
-            </a>
-        </li>
-        <li>
-            <a href="https://linkedin.com/in/{{ site.data.social.linkedin }}/" class="u-padding-vertical-small u-padding-vertical-none@tablet">
-                <span class="fab fa-linkedin"></span> {{ site.data.social.linkedin }}
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/{{ site.data.social.github }}/" class="u-padding-vertical-small u-padding-vertical-none@tablet">
-                <span class="fab fa-github"></span> {{ site.data.social.github }}</a>
-        </li>
-        <li>
-            <a href="https://twitter.com/{{ site.data.social.twitter }}/" class="u-padding-vertical-small u-padding-vertical-none@tablet">
-                <span class="fab fa-twitter"></span> {{ site.data.social.twitter }}</a>
-        </li>
+        {% endfor %}
     </ul>
 </section>

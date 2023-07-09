@@ -1,17 +1,8 @@
 {
-  "name": "mgarratt.github.io",
-  "version": "1.0.0",
-  "description": "Personal Website",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mgarratt/mgarratt.github.io.git"
-  },
-  "author": "Mark Garratt <mgarratt@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://mgarratt.uk/",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0",
-    "inuitcss": "^6.0.0",
-    "sass-mq": "^5.0.1"
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.25",
+    "tailwindcss": "^3.3.2"
   }
 }
