@@ -1,5 +1,7 @@
----
-# Jekyll Settings
+url: "https://mgarratt.uk"
+baseurl: "/"
+title: "Engineering Manager"
+
 exclude:
   - CNAME
   - Gemfile
@@ -8,18 +10,14 @@ exclude:
   - Makefile
   - package.json
   - package-lock.json
+  - postcss.config.js
+  - tailwind.config.js
   - README.md
-  - node_modules/inuitcss
-  - node_modules/sass-mq
-  - node_modules/@fortawesome/fontawesome-free/[!w]*
+  - node_modules
 encoding: "utf-8"
 
-sass:
-  style: expanded
+plugins:
+  - jekyll-postcss
 
-assets:
-  autoprefixer:
-    browsers:
-      - "last 2 versions"
-      - "> 1%"
-      - "IE > 6"
+postcss:
+  cache: false

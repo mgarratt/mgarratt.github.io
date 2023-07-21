@@ -1,8 +1,21 @@
 ---
-email: mgarratt@gmail.com
-website:
-  link: https://mgarratt.uk/
+- name: email
+  text: jobs@mgarratt.uk
+  link: mailto:jobs@mgarratt.uk
+  icon: fas fa-envelope
+- name: website
   text: mgarratt.uk
-linkedin: mgarratt
-github: mgarratt
-twitter: "@MGarratt88"
+  link: https://mgarratt.uk/
+  icon: fas fa-globe
+- name: linkedin
+  text: mgarratt
+  link: https://linkedin.com/in/mgarratt
+  icon: fab fa-linkedin
+- name: github
+  text: mgarratt
+  link: https://github.com/mgarratt
+  icon: fab fa-github
+- name: twitter
+  text: "@MGarratt88"
+  link: https://twitter.com/@MGarratt88
+  icon: fab fa-twitter

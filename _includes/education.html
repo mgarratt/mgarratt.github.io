@@ -1,14 +1,17 @@
-<section class="c-education o-box">
-    <h2>
+<section id="education">
+    <h2 class="my-5">
         <span class="fas fa-university"></span>
         Education
     </h2>
 {% for education in site.data.education %}
-    <h3 class="u-float-left@mobileLandscape">
-        {{ education.qualification }} <span class="u-hidden-visually">-</span>
-        <span>{{ education.establishment }}</span>
+    <h3 class="inline">
+        <span class="sm:float-left">{{ education.qualification }}</span>
+        <span class="sr-only">- </span>
+        <span class="br-before text-sm font-normal text-gray-500">
+            {{ education.establishment }}
+        </span>
     </h3>
-    <aside class="u-float-right@mobileLandscape">{{ education.from }} - {{ education.to }}</aside>
-    <p class="u-float-clear">{{ education.description }}</p>
+    <h4 class="text-sm font-normal text-gray-500 sm:float-right">{{ education.from }} - {{ education.to }}</h4>
+    <p class="sm:clear-both">{{ education.description }}</p>
 {% endfor %}
 </section>
