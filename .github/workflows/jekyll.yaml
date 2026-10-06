@@ -28,7 +28,7 @@ jobs:
         with:
           bundler-cache: true
       - name: Setup Node.js
-        uses: actions/setup-node@v3.7.0
+        uses: actions/setup-node@v3.9.1
         with:
           cache: npm
           node-version-file: '.nvmrc'
